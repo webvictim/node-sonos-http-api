@@ -18,15 +18,12 @@ There is a simple sandbox at /docs (incomplete atm)
 USAGE
 -----
 
-Start by fixing your dependencies. Invoke the following command:
+Build the Docker container and start the compose file:
 
-`npm install --production`
-
-This will download the necessary dependencies if possible.
-
-start the server by running
-
-`npm start`
+```
+docker build -t node-sonos-http-api .
+docker-compose up -d
+```
 
 Now you can control your system by invoking the following commands:
 
