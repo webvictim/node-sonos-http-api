@@ -2,7 +2,7 @@ version: '2'
 
 services:
     node-sonos-http-api:
-        image: node-sonos-http-api
+        image: webvictim/node-sonos-http-api
         container_name: node-sonos-http-api
         network_mode: host
         privileged: true
