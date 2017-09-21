@@ -1,6 +1,7 @@
 node_modules
 presets.json
 presets/
+custom-presets/
 npm-debug.log
 cache
 settings.json

@@ -27,6 +27,8 @@ docker build -t node-sonos-http-api .
 docker-compose up -d
 ```
 
+If you want to use presets, put the JSON files in a directory called custom-presets - this will be mounted into the Docker container during runtime.
+
 Now you can control your system by invoking the following commands:
 
 	http://localhost:5005/zones
